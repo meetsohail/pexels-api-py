@@ -9,19 +9,19 @@ API Key: API Key can be generated from official website of Pexels.com (https://w
 ### Fields
 
 - ***query***
-*string - required* 
+    *string - required* 
 
-The search query. `Ocean`, `Tigers`, `Pears`, etc. 
+    The search query. `Ocean`, `Tigers`, `Pears`, etc. 
 
 - ***orientation***
-*string - optional* 
+    *string - optional* 
 
-Desired photo orientation. The current supported orientations are: `landscape`, `portrait` or `square`. 
+    Desired photo orientation. The current supported orientations are: `landscape`, `portrait` or `square`. 
 
 - ***size***
-*string - optional*
+    *string - optional*
 
-Minimum photo size. The current supported sizes are: `large`(24MP), `medium`(12MP) or `small`(4MP).
+    Minimum photo size. The current supported sizes are: `large`(24MP), `medium`(12MP) or `small`(4MP).
 
 - ***color***
     *string | optional*
@@ -36,7 +36,7 @@ Minimum photo size. The current supported sizes are: `large`(24MP), `medium`(12M
 - ***page***
     *integer | optional*
 
-	  The page number you are requesting.  `Default: 1`
+	The page number you are requesting.  `Default: 1`
 	
 - ***per_page***
     *integer | optional*
