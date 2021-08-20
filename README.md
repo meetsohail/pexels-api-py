@@ -85,27 +85,27 @@ print(search_videos)
 #### Popular Videos
 ##### Parameters
 
-> ***min_width*** *(integer | optional)*
+> - ***min_width*** *(integer | optional)*
 >
 >   The minimum width in pixels of the returned videos.
 > 
->  ***min_height*** *(integer | optional)*
+> - ***min_height*** *(integer | optional)*
 > 
 >   The minimum height in pixels of the returned videos.
 > 
->  ***min_duration*** *(integer | optional)*
+> - ***min_duration*** *(integer | optional)*
 >
 >   The minimum duration in seconds of the returned videos.
 > 
->  ***max_duration*** *(integer | optional)*
+> - ***max_duration*** *(integer | optional)*
 >  
 >   The maximum duration in seconds of the returned videos.
 >  
->  ***page*** *(integer | optional)*
+> - ***page*** *(integer | optional)*
 >
 >   The page number you are requesting.  `Default: 1`
 > 
-> ***per_page*** *(integer | optional)*
+> - ***per_page*** *(integer | optional)*
 >
 >   The number of results you are requesting per page.  `Default: 15`  `Max: 80`
 
