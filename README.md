@@ -11,22 +11,29 @@ API Key: API Key can be generated from official website of Pexels.com (https://w
 
 #### Fields
 > - ***query***
+>
 > *string - required*  The search query. `Ocean`, `Tigers`, `Pears`, etc.
 > 
 > - ***orientation***
-> *string - optional*  Desired photo orientation. The current supported orientations are: `landscape`, `portrait` or `square`.
+>   *string - optional*  
+>
+>   Desired photo orientation. The current supported orientations are: `landscape`, `portrait` or `square`.
 > 
 > - ***size***
-> *string - optional* Minimum photo size. The current supported sizes are: `large`(24MP), `medium`(12MP) or `small`(4MP).
+> *string - optional* 
+>
+>   Minimum photo size. The current supported sizes are: `large`(24MP), `medium`(12MP) or `small`(4MP).
 > 
 > - ***color***
 >     *string | optional*
+>
 >     Desired photo color. Supported colors:  `red`,  `orange`,  `yellow`,  `green`,  `turquoise`,  `blue`,  `violet`,  `pink`, 
 > `brown`,  `black`,  `gray`,  `white`  or any hexidecimal color code
 > (eg.  `#ffffff`).
 > 
 > - ***locale***
 >     *string | optional*
+>
 >     The locale of the search you are performing. The current supported locales are:  `'en-US'`  `'pt-BR'`  `'es-ES'`  `'ca-ES'`  `'de-DE'` 
 > `'it-IT'`  `'fr-FR'`  `'sv-SE'`  `'id-ID'`  `'pl-PL'`  `'ja-JP'` 
 > `'zh-TW'`  `'zh-CN'`  `'ko-KR'`  `'th-TH'`  `'nl-NL'`  `'hu-HU'` 
@@ -34,10 +41,13 @@ API Key: API Key can be generated from official website of Pexels.com (https://w
 > `'ro-RO'`  `'nb-NO'`  `'sk-SK'`  `'tr-TR'`  `'ru-RU'`.
 > 
 > - ***page***
->     *integer | optional* 	  The page number you are requesting.  `Default: 1`
+>     *integer | optional* 	
+>  
+>     The page number you are requesting.  `Default: 1`
 > 	
 > - ***per_page***
 >     *integer | optional*
+>
 >     The number of results you are requesting per page.  `Default: 15`  `Max: 80`
 
 #### Search Photos
