@@ -1,6 +1,7 @@
 # Welcome to Pexels.com API Python Library!
 
 An easy library to use pexels api.
+
 Official Documenation: https://www.pexels.com/api/documentation/
 API Key: API Key can be generated from official website of Pexels.com (https://www.pexels.com/api/)
 
@@ -36,8 +37,8 @@ print(get_photo)
 ```python
 from pexelsapi.pexels import Pexels
 pexel = Pexels('API_KEY')
-popular_videos = pexel.popular_videos(query='ocean', orientation='', size='', color='', locale='', page=1, per_page=15)
-print(popular_videos)
+search_videos = pexel.search_videos(query='ocean', orientation='', size='', color='', locale='', page=1, per_page=15)
+print(search_videos)
 ```
 #### Popular Videos
 ```python
