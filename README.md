@@ -4,6 +4,9 @@ An easy library to use pexels api.
 
 Official Documenation: https://www.pexels.com/api/documentation/
 API Key: API Key can be generated from official website of Pexels.com (https://www.pexels.com/api/)
+## Installation
+
+```pip install pexels-api-py```
 
 ## Usage
 
