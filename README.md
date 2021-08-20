@@ -11,8 +11,9 @@ API Key: API Key can be generated from official website of Pexels.com (https://w
 
 #### Fields
 > - ***query***
+>   *string - required*  
 >
-> *string - required*  The search query. `Ocean`, `Tigers`, `Pears`, etc.
+>   The search query. `Ocean`, `Tigers`, `Pears`, etc.
 > 
 > - ***orientation***
 >   *string - optional*  
