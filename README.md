@@ -9,7 +9,7 @@ API Key: API Key can be generated from official website of Pexels.com (https://w
 
 ### ***Photos***
 
-### Fields
+#### Fields
 
 - ***query***
     (*string - required*) 
