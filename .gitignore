@@ -1,3 +1,5 @@
 pexelsapi/__pycache__
 tests/__pycache__
 *.pyc
+dist
+pexels_api_py.egg-info
