@@ -6,6 +6,9 @@ Official Documenation: https://www.pexels.com/api/documentation/
 API Key: API Key can be generated from official website of Pexels.com (https://www.pexels.com/api/)
 
 ## Usage
+
+### ***Photos***
+
 ### Fields
 
 - ***query***
@@ -42,8 +45,6 @@ API Key: API Key can be generated from official website of Pexels.com (https://w
     (*integer | optional*)
 
     The number of results you are requesting per page.  `Default: 15`  `Max: 80`
-
-### ***Photos***
 
   #### Search Photos
 
