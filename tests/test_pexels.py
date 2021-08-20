@@ -1,6 +1,6 @@
-from pexels_api.pexels_api import Pexel
+from pexelsapi.pexels import Pexels
 
-pexels = Pexel('PASTE_API_KEY')
+pexels = Pexels('PASTE_API_KEY')
 
 
 def test_search_photos():
