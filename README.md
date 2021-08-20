@@ -83,6 +83,26 @@ search_videos = pexel.search_videos(query='ocean', orientation='', size='', colo
 print(search_videos)
 ```
 #### Popular Videos
+##### Parameters
+
+> ***min_width*** *(integer | optional)*
+> The minimum width in pixels of the returned videos.
+> 
+>  ***min_height*** *(integer | optional)*
+> The minimum height in pixels of the returned videos.
+> 
+>  ***min_duration*** *(integer | optional)*
+> The minimum duration in seconds of the returned videos.
+> 
+>  ***max_duration*** *(integer | optional)*
+>  The maximum duration in seconds of the returned videos.
+>  
+>  ***page*** *(integer | optional)*
+> The page number you are requesting.  `Default: 1`
+> 
+> ***per_page*** *(integer | optional)*
+> The number of results you are requesting per page.  `Default: 15`  `Max: 80`
+
 ```python
 from pexelsapi.pexels import Pexels
 pexel = Pexels('API_KEY')
