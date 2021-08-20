@@ -14,7 +14,7 @@ class Pexels():
         self.api_key = api_key
         self.headers = {"Authorization": self.api_key}
 
-    def search_photos(self, query='ocean', orientation='', size='', color='', locale='', page='', per_page=15):
+    def search_photos(self, query='ocean', orientation='', size='', color='', locale='', page=1, per_page=15):
         term = 'search'
         query = {'query': query, 'orientation': orientation, 'size': size,
                  'color': color, 'page': page, 'per_page': per_page}
@@ -33,7 +33,7 @@ class Pexels():
         curated = self.fetch_pexels(term, query, 'photo', get_id)
         return curated
 
-    def search_videos(self, query='ocean', orientation='', size='', color='', locale='', page='', per_page=15):
+    def search_videos(self, query='ocean', orientation='', size='', color='', locale='', page=1, per_page=15):
         term = 'search'
         query = {'query': query, 'orientation': orientation, 'size': size,
                  'color': color, 'page': page, 'per_page': per_page}
