@@ -50,7 +50,7 @@ class Pexels():
     def get_video(self, get_id):
         term = 'videos'
         query = {}
-        curated = self.fetch_pexels(term, query, 'photo', get_id)
+        curated = self.fetch_pexels(term, query, 'video', get_id)
         return curated
 
     def fetch_pexels(self, term, query, search_type, get_id=0):
